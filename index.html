@@ -137,10 +137,10 @@
           "lookup": "properties.NAME",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/parthpandit298/FIT3179-Data-Visualisation-2/main/data/forbes_best_employers_2023.csv"
+              "url": "https://raw.githubusercontent.com/parthpandit298/FIT3179-Data-Visualisation-2/main/data/world_labour_data.csv"
             },
-            "key": "country_name",
-            "fields": ["total_employees"]
+            "key": "Counttry/Region",
+            "fields": ["Labour force"]
           }
         },
         
@@ -148,17 +148,17 @@
         "mark": {"type": "geoshape","stroke":"white"},
         "encoding": {
           "color": {
-            "field": "total_employees",
+            "field": "Labour force",
             "type": "quantitative",
             "scale": {
                 "type": "threshold",
-                "domain":[10000, 100000, 500000,100000],
+                "domain":[10000, 100000, 500000,1000000,100000000],
                 "range":["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
             }
           },
           "tooltip": [
-            {"field": "properties.NAME", "type": "nominal", "title": "country_name"},
-            {"field": "total_employees", "type": "quantitative"}
+            {"field": "properties.NAME", "type": "nominal", "title": "country/Region"},
+            {"field": "Labour force", "type": "quantitative"}
         ]
       }
     },
