@@ -4,11 +4,113 @@
   <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.8"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+  integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Oxygen', sans-serif;
+      line-height: 1.5;
+    }
+
+    h1 {
+      font-weight: 900;
+    }
+
+    body {
+      background-color: lightgray;
+    }
+
+    .page {
+      width: 750px;
+      background-color: lightblue;
+      margin: auto;
+      padding: 70px;
+      padding-top: 35px;
+    }
+
+    .vis-container {
+      width: 100%;
+    }
+
+    .description h2,
+    h1 {
+      margin-top: 10px;
+    }
+
+    .description-right {
+      padding-left: 10px;
+    }
+
+    .description-left {
+      padding-right: 10px;
+    }
+
+    .pure-g {
+      margin-bottom: 25px;
+    }
+
+    .small-font {
+      font-size: 13px;
+    }
+  </style>
 </head>
+
+
 <body>
-  <div id="vis"/>
-  <script>
-    const spec = {
+
+  <div class="page">
+    <!-- Title and subtitle -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h1>Your Global emploment scene</h1>
+        <p>Your subtitle or description here.</p>
+      </div>
+    </div>
+
+    <!-- Visualization 1 - world map -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="vis1" class="vis-container"></div>
+      </div>
+    </div>
+    
+    <!-- Description of Visualization 1 -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <p>Description of Visualization 1 here.</p>
+      </div>
+    </div>
+
+    <!-- Visualization 2 - Bar Chart -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="vis2" class="vis-container"></div>
+      </div>
+    </div>
+    
+    <!-- Description of Visualization 2 -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <p>Description of Visualization 2 here.</p>
+      </div>
+    </div>
+
+    <!-- Footer and credit -->
+    <div class="pure-g">
+      <div class="pure-u-1-1 small-font">
+        <!-- Add footer content or credits here -->
+      </div>
+    </div>
+  </div> <!-- end page -->
+
+
+  <script type="text/javascript">
+    var specvis1 = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Employees of top companies aound the world",
   "width": 600,
@@ -66,7 +168,7 @@
           "lookup": "properties.NAME",
           "from": {
             "data": {
-              "url": ""
+              "url": "https://raw.githubusercontent.com/parthpandit298/FIT3179-Data-Visualisation-2/main/data/countryInfo.csv"
             },
             "key": "name",
             "fields": ["latitude", "longitude"]
@@ -80,17 +182,49 @@
         "text": {"field": "properties.NAME", "type": "nominal"},
         "opacity": {
           "condition": {
-            "test": "datum['properties.NAME'] == 'China' || datum['properties.NAME'] == 'Brazil' || datum['properties.NAME'] == 'Australia' || datum['properties.NAME'] == 'Malaysia' ||  datum['properties.NAME'] == 'Yemen' ||  datum['properties.NAME'] == 'United States of America'",
+            "test": "datum['properties.NAME'] == 'China' || datum['properties.NAME'] == 'Brazil' || datum['properties.NAME'] == 'Australia' || datum['properties.NAME'] == 'Malaysia' ||  datum['properties.NAME'] == 'United Kingdom' ||  datum['properties.NAME'] == 'United States of America'|| datum['properties.NAME'] == 'India' || datum['properties.NAME'] == 'Canada'",
             "value": 1
           },
           "value": 0
       }
     }
   }
+  ]
+}
+  var specvis2 = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Forbes Top 50 Companies by Number of Employees",
+  "width": 600, 
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/parthpandit298/FIT3179-Data-Visualisation-2/main/data/forbes_best_employers_2023.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "rank": "number",
+        "company": "string",
+        "employees": "number"
+      }
+    }
+  },
+
+  "transform": [
+    // Filter to include only the top 50 companies
+    {
+      "filter": "datum.rank <=50"
+    }
   ],
-  "config": {}
-};
-    vegaEmbed("#vis", spec, {mode: "vega-lite"}).then(console.log).catch(console.warn);
+
+  "mark": "point",
+  "encoding": {
+    "x": {"field": "company", "type": "ordinal", "title": "Company Name"},
+    "y": {"field": "employees", "type": "quantitative", "title": "Number of Employees"},
+  }
+}
+
+
+    vegaEmbed("#vis1", specvis1, { "actions": false }).then(function (result) { }).catch(console.error);
+    vegaEmbed("#vis2", specvis2, { "actions": false }).then(function (result) { }).catch(console.error);
   </script>
 </body>
 </html>
