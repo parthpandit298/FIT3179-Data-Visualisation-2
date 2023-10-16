@@ -1,6 +1,4 @@
-Rank,country,labour_force
-,,
-,,
+rank,country,labour_force
 1,China,"788,300,000"
 2,India,"478,000,000"
 3,United States of America,"164,400,000"
@@ -218,6 +216,8 @@ Rank,country,labour_force
 197,Marshall Islands,"10,480"
 198,Palau,"9,777"
 199,Kiribati,"7,870"
+,,
+,,
 ,,
 ,,
 ,,
