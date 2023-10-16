@@ -1,221 +1,221 @@
 rank,country,labour_force
-1,China,"788,300,000"
-2,India,"478,000,000"
-3,United States of America,"164,400,000"
-4,Indonesia,"148,700,000"
-5,Brazil,"108,000,000"
-6,Pakistan,"94,300,000"
-7,Nigeria,"90,400,000"
-8,Russia,"79,800,000"
-9,Bangladesh,"70,900,000"
-10,Japan,"67,000,000"
-11,Vietnam,"54,800,000"
-12,Mexico,"54,510,000"
-13,Ethiopia,"52,820,000"
-14,Germany,"45,900,000"
-15,Philippines,"42,780,000"
-16,Thailand,"38,370,000"
-17,United Kingdom,"33,500,000"
-18,Democratic Republic of the Congo,"31,360,000"
-19,Turkey,"31,300,000"
-20,France,"30,680,000"
-21,Iran,"30,500,000"
-22,Egypt,"29,950,000"
-23,South Korea,"27,750,000"
-24,Italy,"25,940,000"
-25,Colombia,"25,760,000"
-26,Tanzania,"24,890,000"
-27,Spain,"22,750,000"
-28,Myanmar,"22,300,000"
-29,South Africa,"22,190,000"
-30,Kenya,"19,600,000"
-31,Canada,"19,520,000"
-32,Uzbekistan,"18,120,000"
-33,Argentina,"18,000,000"
-34,Ukraine,"17,990,000"
-35,Poland,"17,600,000"
-36,Uganda,"17,400,000"
-37,Peru,"16,160,000"
-38,Nepal,"16,000,000"
-39,Venezuela,"14,010,000"
-40,Malaysia,"13,190,000"
-41,North Korea,"12,600,000"
-42,Australia,"12,440,000"
-43,Ghana,"12,070,000"
-44,Sudan,"11,920,000"
-45,Taiwan,"11,780,000"
-46,Morocco,"11,730,000"
-47,Algeria,"11,150,000"
-48,Mozambique,"10,550,000"
-49,Madagascar,"9,504,000"
-50,Romania,"9,451,000"
-51,Netherlands,"9,090,000"
-52,Kazakhstan,"9,022,000"
-53,Angola,"9,018,000"
-54,Iraq,"8,900,000"
-55,Sri Lanka,"8,528,000"
-56,Cameroon,"8,426,000"
-57,Saudi Arabia,"8,412,000"
-58,Chile,"8,367,000"
-59,Côte d'Ivoire,"7,928,000"
-60,Cambodia,"7,900,000"
-61,Afghanistan,"7,512,000"
-62,Yemen,"7,100,000"
-63,Ecuador,"6,953,000"
-64,Burkina Faso,"6,668,000"
-65,Zambia,"6,275,000"
-66,Senegal,"6,096,000"
-67,Malawi,"5,747,000"
-68,Guinea,"5,409,000"
-69,Portugal,"5,395,000"
-70,United Arab Emirates,"5,340,000"
-71,Czech Republic,"5,304,000"
-71,Cuba,"5,233,000"
-72,Belgium,"5,150,000"
-73,Sweden,"5,107,000"
-74,Syria,"5,014,000"
-75,Belarus,"5,000,000"
-76,Switzerland,"4,976,000"
-77,Bolivia,"4,992,000"
-78,Greece,"4,918,000"
-79,Dominican Republic,"4,912,000"
-80,Haiti,"4,810,000"
-81,Niger,"4,688,000"
-82,Azerbaijan,"4,680,000"
-84,Guatemala,"4,465,000"
-85,Rwanda,"4,446,000"
-86,Chad,"4,293,000"
-87,Hungary,"4,263,000"
-88,Burundi,"4,245,000"
-89,Papua New Guinea,"4,077,000"
-90,Tunisia,"3,974,000"
-91,Zimbabwe,"3,939,000"
-92,Hong Kong,"3,873,000"
-93,Austria,"3,737,000"
-94,Benin,"3,662,000"
-95,Honduras,"3,507,000"
-96,Israel,"3,493,000"
-97,Somalia,"3,447,000"
-98,Singapore,"3,444,000"
-99,Laos,"3,337,000"
-100,Mali,"3,241,000"
-101,Paraguay,"3,190,000"
-102,Nicaragua,"3,039,000"
-103,Eritrea,"2,955,000"
-104,Republic of the Congo,"2,890,000"
-105,Denmark,"2,795,000"
-106,El Salvador,"2,738,000"
-107,Slovakia,"2,727,000"
-108,Norway,"2,707,000"
-109,Finland,"2,685,000"
-110,Togo,"2,595,000"
-111,Bulgaria,"2,551,000"
-112,New Zealand,"2,413,000"
-113,Kuwait,"2,380,000"
-114,Kyrgyzstan,"2,344,000"
-115,Turkmenistan,"2,300,000"
-116,Costa Rica,"2,222,000"
-117,Tajikistan,"2,209,000"
-118,Sierra Leone,"2,207,000"
-119,Ireland,"2,161,000"
-120,Central African Republic,"2,082,000"
-121,Georgia,"1,959,000"
-122,Jordan,"1,898,000"
-123,Croatia,"1,715,000"
-107,Serbia,"2,920,000"
-125,Uruguay,"1,700,000"
-126,Libya,"1,644,000"
-127,Panama,"1,540,000"
-128,Lebanon,"1,481,000"
-129,Lithuania,"1,452,000"
-130,Qatar,"1,424,000"
-131,Armenia,"1,394,000"
-132,Liberia,"1,372,000"
-133,Mauritania,"1,318,000"
-134,Botswana,"1,308,000"
-135,Puerto Rico,"1,300,000"
-136,Jamaica,"1,261,000"
-137,Moldova,"1,327,000"
-138,Albania,"1,090,000"
-139,Mongolia,"1,068,000"
-140,Bosnia and Herzegovina,"1,026,337"
-,West Bank,"1,025,000"
-141,Latvia,"1,022,000"
-142,Oman,"968,800"
-143,Macedonia,"960,700"
-144,Slovenia,"913,400"
-145,Namibia,"880,400"
-146,Lesotho,"874,200"
-147,Kosovo,"800,000"
-148,Gambia,"777,100"
-149,Bahrain,"716,500"
-150,Estonia,"692,900"
-151,Mauritius,"637,600"
-152,Guinea-Bissau,"632,700"
-153,Gabon,"629,100"
-154,Trinidad and Tobago,"621,000"
-155,Cyprus,"443,500"
-156,Swaziland,"424,100"
-157,Timor-Leste,"418,200"
-,Macau,"367,800"
-,Gaza Strip,"348,200"
-158,Bhutan,"336,400"
-159,Fiji,"335,000"
-160,Guyana,"313,100"
-161,Djibouti,"294,600"
-162,Montenegro,"251,300"
-163,Comoros,"233,500"
-164,Luxembourg,"208,800"
-165,Brunei,"205,800"
-166,Solomon Islands,"202,500"
-167,Bahamas,"196,900"
-168,Cape Verde,"196,100"
-169,Equatorial Guinea,"195,200"
-170,Malta,"190,400"
-171,Iceland,"181,100"
-172,Suriname,"165,600"
-173,Maldives,"159,700"
-,Western Sahara,"144,000"
-174,Barbados,"141,800"
-175,Belize,"120,500"
-,French Polynesia,"116,000"
-176,Vanuatu,"115,900"
-,New Caledonia,"106,400"
-177,Saint Lucia,"79,700"
-,Curaçao,"73,100"
-178,Guam,"69,390"
-179,Grenada,"59,900"
-180,Saint Vincent and the Grenadines,"57,520"
-,Jersey,"53,380"
-181,Sao Tome and Principe,"52,490"
-182,Monaco,"52,490"
-183,Aruba,"51,610"
-,U.S. Virgin Islands,"49,820"
-184,Samoa,"47,930"
-,Isle of Man,"41,790"
-185,Tonga,"39,960"
-186,Seychelles,"39,560"
-,Cayman Islands,"39,000"
-,Northern Mariana Islands,"38,450"
-187,Bermuda,"37,400"
-188,Andorra,"36,060"
-189,Liechtenstein,"35,830"
-,Faroe Islands,"34,710"
-,Guernsey,"31,470"
-190,Antigua and Barbuda,"30,000"
-191,Greenland,"28,600"
-192,Dominica,"25,000"
-,Sint Maarten,"23,200"
-193,San Marino,"21,960"
-194,Saint Kitts and Nevis,"18,170"
-,American Samoa,"17,630"
-,Saint Martin,"17,300"
-195,Federated States of Micronesia,"15,920"
-,British Virgin Islands,"12,770"
-196,Gibraltar,"12,690"
-197,Marshall Islands,"10,480"
-198,Palau,"9,777"
-199,Kiribati,"7,870"
+1,China,788300000
+2,India,478000000
+3,United States of America,164400000
+4,Indonesia,148700000
+5,Brazil,108000000
+6,Pakistan,94300000
+7,Nigeria,90400000
+8,Russia,79800000
+9,Bangladesh,70900000
+10,Japan,67000000
+11,Vietnam,54800000
+12,Mexico,54510000
+13,Ethiopia,52820000
+14,Germany,45900000
+15,Philippines,42780000
+16,Thailand,38370000
+17,United Kingdom,33500000
+18,Democratic Republic of the Congo,31360000
+19,Turkey,31300000
+20,France,30680000
+21,Iran,30500000
+22,Egypt,29950000
+23,South Korea,27750000
+24,Italy,25940000
+25,Colombia,25760000
+26,Tanzania,24890000
+27,Spain,22750000
+28,Myanmar,22300000
+29,South Africa,22190000
+30,Kenya,19600000
+31,Canada,19520000
+32,Uzbekistan,18120000
+33,Argentina,18000000
+34,Ukraine,17990000
+35,Poland,17600000
+36,Uganda,17400000
+37,Peru,16160000
+38,Nepal,16000000
+39,Venezuela,14010000
+40,Malaysia,13190000
+41,North Korea,12600000
+42,Australia,12440000
+43,Ghana,12070000
+44,Sudan,11920000
+45,Taiwan,11780000
+46,Morocco,11730000
+47,Algeria,11150000
+48,Mozambique,10550000
+49,Madagascar,9504000
+50,Romania,9451000
+51,Netherlands,9090000
+52,Kazakhstan,9022000
+53,Angola,9018000
+54,Iraq,8900000
+55,Sri Lanka,8528000
+56,Cameroon,8426000
+57,Saudi Arabia,8412000
+58,Chile,8367000
+59,Côte d'Ivoire,7928000
+60,Cambodia,7900000
+61,Afghanistan,7512000
+62,Yemen,7100000
+63,Ecuador,6953000
+64,Burkina Faso,6668000
+65,Zambia,6275000
+66,Senegal,6096000
+67,Malawi,5747000
+68,Guinea,5409000
+69,Portugal,5395000
+70,United Arab Emirates,5340000
+71,Czech Republic,5304000
+71,Cuba,5233000
+72,Belgium,5150000
+73,Sweden,5107000
+74,Syria,5014000
+75,Belarus,5000000
+76,Switzerland,4976000
+77,Bolivia,4992000
+78,Greece,4918000
+79,Dominican Republic,4912000
+80,Haiti,4810000
+81,Niger,4688000
+82,Azerbaijan,4680000
+84,Guatemala,4465000
+85,Rwanda,4446000
+86,Chad,4293000
+87,Hungary,4263000
+88,Burundi,4245000
+89,Papua New Guinea,4077000
+90,Tunisia,3974000
+91,Zimbabwe,3939000
+92,Hong Kong,3873000
+93,Austria,3737000
+94,Benin,3662000
+95,Honduras,3507000
+96,Israel,3493000
+97,Somalia,3447000
+98,Singapore,3444000
+99,Laos,3337000
+100,Mali,3241000
+101,Paraguay,3190000
+102,Nicaragua,3039000
+103,Eritrea,2955000
+104,Republic of the Congo,2890000
+105,Denmark,2795000
+106,El Salvador,2738000
+107,Slovakia,2727000
+108,Norway,2707000
+109,Finland,2685000
+110,Togo,2595000
+111,Bulgaria,2551000
+112,New Zealand,2413000
+113,Kuwait,2380000
+114,Kyrgyzstan,2344000
+115,Turkmenistan,2300000
+116,Costa Rica,2222000
+117,Tajikistan,2209000
+118,Sierra Leone,2207000
+119,Ireland,2161000
+120,Central African Republic,2082000
+121,Georgia,1959000
+122,Jordan,1898000
+123,Croatia,1715000
+107,Serbia,2920000
+125,Uruguay,1700000
+126,Libya,1644000
+127,Panama,1540000
+128,Lebanon,1481000
+129,Lithuania,1452000
+130,Qatar,1424000
+131,Armenia,1394000
+132,Liberia,1372000
+133,Mauritania,1318000
+134,Botswana,1308000
+135,Puerto Rico,1300000
+136,Jamaica,1261000
+137,Moldova,1327000
+138,Albania,1090000
+139,Mongolia,1068000
+140,Bosnia and Herzegovina,1026337
+,West Bank,1025000
+141,Latvia,1022000
+142,Oman,968800
+143,Macedonia,960700
+144,Slovenia,913400
+145,Namibia,880400
+146,Lesotho,874200
+147,Kosovo,800000
+148,Gambia,777100
+149,Bahrain,716500
+150,Estonia,692900
+151,Mauritius,637600
+152,Guinea-Bissau,632700
+153,Gabon,629100
+154,Trinidad and Tobago,621000
+155,Cyprus,443500
+156,Swaziland,424100
+157,Timor-Leste,418200
+,Macau,367800
+,Gaza Strip,348200
+158,Bhutan,336400
+159,Fiji,335000
+160,Guyana,313100
+161,Djibouti,294600
+162,Montenegro,251300
+163,Comoros,233500
+164,Luxembourg,208800
+165,Brunei,205800
+166,Solomon Islands,202500
+167,Bahamas,196900
+168,Cape Verde,196100
+169,Equatorial Guinea,195200
+170,Malta,190400
+171,Iceland,181100
+172,Suriname,165600
+173,Maldives,159700
+,Western Sahara,144000
+174,Barbados,141800
+175,Belize,120500
+,French Polynesia,116000
+176,Vanuatu,115900
+,New Caledonia,106400
+177,Saint Lucia,79700
+,Curaçao,73100
+178,Guam,69390
+179,Grenada,59900
+180,Saint Vincent and the Grenadines,57520
+,Jersey,53380
+181,Sao Tome and Principe,52490
+182,Monaco,52490
+183,Aruba,51610
+,U.S. Virgin Islands,49820
+184,Samoa,47930
+,Isle of Man,41790
+185,Tonga,39960
+186,Seychelles,39560
+,Cayman Islands,39000
+,Northern Mariana Islands,38450
+187,Bermuda,37400
+188,Andorra,36060
+189,Liechtenstein,35830
+,Faroe Islands,34710
+,Guernsey,31470
+190,Antigua and Barbuda,30000
+191,Greenland,28600
+192,Dominica,25000
+,Sint Maarten,23200
+193,San Marino,21960
+194,Saint Kitts and Nevis,18170
+,American Samoa,17630
+,Saint Martin,17300
+195,Federated States of Micronesia,15920
+,British Virgin Islands,12770
+196,Gibraltar,12690
+197,Marshall Islands,10480
+198,Palau,9777
+199,Kiribati,7870
 ,,
 ,,
 ,,
