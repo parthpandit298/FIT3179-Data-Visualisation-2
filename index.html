@@ -110,7 +110,21 @@
     <!-- Description of Visualization 3 -->
     <div class="pure-g">
       <div class="pure-u-1-1">
-        <p>Description of Visualization 2 here.</p>
+        <p>Description of Visualization 3 here.</p>
+      </div>
+    </div>
+
+    <!-- Visualization 4 - line Chart -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="vis4" class="vis-container"></div>
+      </div>
+    </div>
+    
+    <!-- Description of Visualization 4 -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <p>Description of Visualization 4 here.</p>
       </div>
     </div>
 
@@ -264,13 +278,37 @@ var specvis3 = {
   },
   "layer": [
     {
-      "mark": {"stroke": "#003F7D", "type": "line","point":true,"label":"Employed"},
+      "mark": {"type": "line","point":true,"label":"Employed"},
       "encoding": {
         "x": { "field": "Year", "type": "quantitative", "title": "Year" },
         "y": { "field": "Percentage_employeed", "type": "quantitative", "title": "Employed%" },
         "color":{"field":"Title","type":"nominal"}
       }
     },
+    
+  ],
+  
+}
+
+var specvis4 = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Forbes Top 50 Companies by Number of Employees",
+  "width": 600,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/parthpandit298/FIT3179-Data-Visualisation-2/main/data/global_employeed_percent.csv",
+    "format": { "type": "csv" }
+  },
+  "layer": [
+    {
+      "mark": {"type": "line","point":true},
+      "encoding": {
+        "x": { "field": "Year", "type": "quantitative", "title": "Year" },
+        "y": { "field": "percent_unemployeed", "type": "quantitative", "title": "Employed%" },
+        "color":{"field":"Title_2","type":"nominal"}
+      }
+    },
+    
   ],
   
 }
@@ -280,6 +318,7 @@ var specvis3 = {
     vegaEmbed("#vis1", specvis1, { "actions": false }).then(function (result) { }).catch(console.error);
     vegaEmbed("#vis2", specvis2, { "actions": false }).then(function (result) { }).catch(console.error);
     vegaEmbed("#vis3", specvis3, { "actions": false }).then(function (result) { }).catch(console.error);
+    vegaEmbed("#vis4", specvis4, { "actions": false }).then(function (result) { }).catch(console.error);
   </script>
 </body>
 </html>
