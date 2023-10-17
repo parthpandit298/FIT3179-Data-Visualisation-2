@@ -67,8 +67,8 @@
     <!-- Title and subtitle -->
     <div class="pure-g">
       <div class="pure-u-1-1">
-        <h1>Your Global emploment scene</h1>
-        <p>Your subtitle or description here.</p>
+        <h1>Global Emploment Demographic</h1>
+        <p>Demographic Snapshot of Global Employment: A Comprehensive Analysis of the Active Workforce, Forbes' Top 700 Companies, Global Unemployment Trends, and Gender-Based Comparisons Over the Last Two Decades".</p>
       </div>
     </div>
 
@@ -100,6 +100,20 @@
       </div>
     </div>
 
+    <!-- Visualization 3 - line Chart -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div id="vis3" class="vis-container"></div>
+      </div>
+    </div>
+    
+    <!-- Description of Visualization 3 -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <p>Description of Visualization 2 here.</p>
+      </div>
+    </div>
+
     <!-- Footer and credit -->
     <div class="pure-g">
       <div class="pure-u-1-1 small-font">
@@ -112,7 +126,7 @@
   <script type="text/javascript">
     var specvis1 = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Employees of top companies aound the world",
+  "title": "global active work force",
   "width": 600,
   "height": 400,
   "data": {
@@ -238,8 +252,42 @@
 }
 
 
+
+var specvis3 = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Forbes Top 50 Companies by Number of Employees",
+  "width": 600,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/parthpandit298/FIT3179-Data-Visualisation-2/main/data/global_employeed_percent.csv",
+    "format": { "type": "csv" }
+  },
+  "layer": [
+    {
+      "mark": {"stroke": "#003F7D", "type": "line","point":true,"label":"Employed"},
+      "encoding": {
+        "x": { "field": "Year", "type": "quantitative", "title": "Year" },
+        "y": { "field": "Percentage_employeed", "type": "quantitative", "title": "Employed%" },
+        "color":{"field":"titles","type":"nominal"}
+      }
+    },
+    {
+      "mark": {"stroke": "#FF8E00", "type": "line","point":true},
+      "encoding": {
+        "x": { "field": "Year", "type": "quantitative", "title": "Year" },
+        "y": { "field": "not_employeed", "type": "quantitative", "title": "Unemployed%" },
+        "color":{"field":"titles","type":"nominal"}
+      }
+    }
+  ],
+  
+}
+
+
+
     vegaEmbed("#vis1", specvis1, { "actions": false }).then(function (result) { }).catch(console.error);
     vegaEmbed("#vis2", specvis2, { "actions": false }).then(function (result) { }).catch(console.error);
+    vegaEmbed("#vis3", specvis3, { "actions": false }).then(function (result) { }).catch(console.error);
   </script>
 </body>
 </html>
