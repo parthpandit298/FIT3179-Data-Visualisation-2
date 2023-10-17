@@ -10,10 +10,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
-  <style>
+    <style>
     * {
-      font-family: 'Oxygen', sans-serif;
+      font-family:sans-serif;
       line-height: 1.5;
     }
 
@@ -22,12 +21,14 @@
     }
 
     body {
-      background-color: lightgray;
+      background: rgb(34,193,195);
+      background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     }
 
     .page {
       width: 750px;
-      background-color: lightblue;
+      background: rgb(34,193,195);
+      background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
       margin: auto;
       padding: 70px;
       padding-top: 35px;
@@ -35,6 +36,7 @@
 
     .vis-container {
       width: 100%;
+      text-align: center;
     }
 
     .description h2,
@@ -72,6 +74,12 @@
       </div>
     </div>
 
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <p>The world map below displays the current active workforce of each country according to the latest available data. Countries such as China, India, the United States, Indonesia, and Brazil are leading in this category for two main reasons. Firstly, these countries have large populations and collectively contribute a significant percentage to the global population. Secondly, they are among the most developed or rapidly developing nations around the world..</p>
+      </div>
+    </div>
+
     <!-- Visualization 1 - world map -->
     <div class="pure-g">
       <div class="pure-u-1-1">
@@ -79,24 +87,30 @@
       </div>
     </div>
     
-    <!-- Description of Visualization 1 -->
+    <!-- Description of Visualization 2 -->
     <div class="pure-g">
       <div class="pure-u-1-1">
-        <p>Description of Visualization 1 here.</p>
+        <p>"Forbes Top 50 Companies by Number of Employees
+
+          This data visualization presents the top 50 companies from Forbes' 2023 list of best employers, showcasing their respective number of employees. Each point on the chart represents a company, with the horizontal axis displaying the company names in an ordinal format, and the vertical axis representing the number of employees in a quantitative scale.</p>
       </div>
     </div>
 
-    <!-- Visualization 2 - Bar Chart -->
+    <!-- Visualization 2 - scatter Chart -->
     <div class="pure-g">
       <div class="pure-u-1-1">
         <div id="vis2" class="vis-container"></div>
       </div>
     </div>
     
-    <!-- Description of Visualization 2 -->
+    <!-- Description of Visualization 3 -->
     <div class="pure-g">
       <div class="pure-u-1-1">
-        <p>Description of Visualization 2 here.</p>
+        <p>Global Employed and Unemployed Percentage
+
+          Description:
+          
+          This data visualization provides a comprehensive view of global employment trends over time. The chart, featuring lines that represent employment percentages for various job titles. apon hvaing a futher look at the grpah it cna be seen the the employed percent is going down impliying more and more pople are lossing there jobs or not enough jobs to goaround. also it can be seen that the that the unemployed rate is pretty much constant with a few ups and down but it tends to always flaten out and result that not much is being down to bring the rate down</p>
       </div>
     </div>
 
@@ -107,10 +121,10 @@
       </div>
     </div>
     
-    <!-- Description of Visualization 3 -->
+    <!-- Description of Visualization 4 -->
     <div class="pure-g">
       <div class="pure-u-1-1">
-        <p>Description of Visualization 3 here.</p>
+        <p>female rights have always been an issue in the past in morden day women are now treat as equal and are given equal opportunity it is said but over the last 30 year the chart tends to say other wise. men were and have been above women in this catagory. as for the unemplyment percentage both genders are face similar levels of unemployment in the past 30 years</p>
       </div>
     </div>
 
@@ -121,13 +135,7 @@
       </div>
     </div>
     
-    <!-- Description of Visualization 4 -->
-    <div class="pure-g">
-      <div class="pure-u-1-1">
-        <p>Description of Visualization 4 here.</p>
-      </div>
-    </div>
-
+  
     <!-- Footer and credit -->
     <div class="pure-g">
       <div class="pure-u-1-1 small-font">
@@ -195,7 +203,7 @@
             "type": "quantitative",
             "scale": {
                 "type": "threshold",
-                "domain":[100000, 1000000, 5000000],
+                "domain":[100000,10000000,100000000,500000000],
                 "range":["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
             }
           },
@@ -236,9 +244,9 @@
 }
   var specvis2 = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Forbes Top 50 Companies by Number of Employees",
+  "title": "Forbes Top 50 Companies by Number of Employees of 2023",
   "width": 600, 
-  "height": 400,
+  "height": 200,
   "data": {
     "url": "https://raw.githubusercontent.com/parthpandit298/FIT3179-Data-Visualisation-2/main/data/forbes_best_employers_2023.csv",
     "format": {
@@ -269,9 +277,9 @@
 
 var specvis3 = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Forbes Top 50 Companies by Number of Employees",
+  "title": "Global Employmed and unemployed percntage",
   "width": 600,
-  "height": 400,
+  "height": 200,
   "data": {
     "url": "https://raw.githubusercontent.com/parthpandit298/FIT3179-Data-Visualisation-2/main/data/global_employeed_percent.csv",
     "format": { "type": "csv" }
@@ -292,9 +300,9 @@ var specvis3 = {
 
 var specvis4 = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Forbes Top 50 Companies by Number of Employees",
+  "title": "Global Employmed and unemployed percntage with gender(male vs female)",
   "width": 600,
-  "height": 400,
+  "height": 200,
   "data": {
     "url": "https://raw.githubusercontent.com/parthpandit298/FIT3179-Data-Visualisation-2/main/data/gender_job_percent.csv",
     "format": { "type": "csv" }
